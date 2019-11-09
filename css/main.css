@@ -1,0 +1,48 @@
+html {
+  box-sizing: border-box;
+  font-family: "Roboto Condensed";
+  font-family: Roboto;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.banner {
+  max-height: 500px;
+  display: block;
+  position: relative;
+}
+
+h1 {
+  font-family: 'Roboto Condensed';
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.all {
+  max-width: 45em;
+  position: absolute;
+  top: 250px;
+  left: 450px;
+  display: flex;
+  flex: wrap;
+}
+
+.text {
+  max-height: 10rem;
+}
+
+.btn-big {
+  font-size: 1.5rem;
+}
+
+ .btn-big {
+  background-color: #333;
+  color: #fff;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 8px;
+  padding: .3em .75em;
